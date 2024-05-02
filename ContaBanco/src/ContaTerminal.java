@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-         
+         int numero1 = 0; 
         double saldoDisponivel = 237.48; 
     
         // Recebendo os dados do usuario
