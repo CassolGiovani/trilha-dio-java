@@ -1,7 +1,7 @@
 //  Um exemplo para exercitar conceitos de variaveis e entrada de dados.
 import java.util.Scanner; 
 public class ContaTerminal {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
          int numero1 = 0; 
         double saldoDisponivel = 237.48; 
