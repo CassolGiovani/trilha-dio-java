@@ -5,10 +5,7 @@ public class SimulacaoBancaria {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
         double saldo = 0; 
-        // Loop infinito para manter o programa em execução até que o usuário decida sair
-        while (true) { 
-
-          System.out.println("ESCOLA UMA OPÇÃO");
+        System.out.println("ESCOLA UMA OPÇÃO");
           System.out.println("1- Depositar" + 
                         "\r\n" + 
                         "2- Sacar" + 
@@ -17,8 +14,9 @@ public class SimulacaoBancaria {
                         "\r\n" + 
                         "0- Encerrar" + 
                         "");
-          
-            int opcao = scanner.nextInt();
+        
+        while (true) { 
+          int opcao = scanner.nextInt(); 
         switch(opcao){
           case 1:
           System.out.println("Insira o valor a ser depositado: ");
