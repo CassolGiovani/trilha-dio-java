@@ -21,9 +21,7 @@ public class VerificarDigitos {
     private static void verificarNumeroConta(String numeroConta) { 
         if(numeroConta.length()!=8){
             throw new IllegalArgumentException("O número de conta deve ter exatamente 8 dígitos.");
-        }
-    
-                    
+        }             
     }
 }
     
