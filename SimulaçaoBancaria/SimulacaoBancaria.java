@@ -15,7 +15,7 @@ public class SimulacaoBancaria {
                         "\r\n" + 
                         "3- Consultar Saldo" + 
                         "\r\n" + 
-                        "4- Encerrar" + 
+                        "0- Encerrar" + 
                         "");
           
             int opcao = scanner.nextInt();
@@ -39,7 +39,7 @@ public class SimulacaoBancaria {
           case 3:
           System.out.println("Saldo atual: "+saldo);
           break;
-          case 4:
+          case 0:
           scanner.close();
           System.out.println("Programa encerrado.");
           System.exit(0);
